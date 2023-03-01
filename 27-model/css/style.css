@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    background-image: url("../banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -10;
+}
+.cont-items
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 3px 8px #888888;
+    padding: 50px;
+    background-color: white;
+}
+#model-name
+{
+    font-size: 60px;
+}
+.btn
+{
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 200;
+    background-color: white;
+}
+.btn:hover
+{
+    transition: ease 0.5s all;
+    background-color: black;
+    color: white;
+}
+.model-over
+{
+    height: 300px;
+    width: 590px;
+    align-items: center;
+    position: fixed;
+    box-shadow: 2px 3px 8px #888888;
+    background-color: white;
+    visibility: hidden;
+    z-index: -10;
+}
+.open-model
+{
+    visibility: visible;
+    z-index: 10;
+}
+.cros-btn
+{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: red;
+    font-size: 50px;
+    cursor: pointer;
+}
+.head
+{
+    height: 240px;
+    display: grid;
+}
+.heading
+{
+   display: grid;
+   place-items: center;
+}
